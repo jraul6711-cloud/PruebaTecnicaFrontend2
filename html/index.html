@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Frontend</title>
+</head>
+
+<body>
+    <h3>Instrucciones</h3>
+    <p>Este es un cuestionario de N preguntas, puedes navegar entre las preguntas sin perder la respuesta seleccionada
+    </p>
+
+    <form>
+        <!-- Pregunta -->
+        <h4>Pregunta</h4>
+        <p id="contador"></p>
+        <p id="textoPregunta">¿Cuál es la raíz cuadrada de 25?</p>
+
+        <!-- Opciones de respuestas -->
+        <label>
+            <input type="radio" name="respuesta" value="a">
+            5
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="respuesta" value="a">
+            3
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="respuesta" value="a">
+            25 no tiene raíz cuadrada
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="respuesta" value="a">
+            2
+        </label>
+        <br>
+
+        <!-- Botones de navegación -->
+        <button type="button" id="btnAnterior">Anterior</button>
+        <button type="button" id="btnSiguiente">Siguiente</button>
+    </form>
+
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>
